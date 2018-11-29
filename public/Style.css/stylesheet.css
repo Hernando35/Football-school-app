@@ -1,0 +1,456 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    height: 1050px;
+}
+
+
+.mobile-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #33b5e5;
+    color: white;
+    border-radius: 10px;
+    width: 800px;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+    width: 800px;
+}
+
+.topnav #myLinks {
+    display: none;
+}
+
+.topnav a {
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-size: 50px;
+    display: block;
+}
+
+.topnav a.icon {
+    background: black;
+    height: 5rem;
+    width: 5rem;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.active {
+    background-color: #9933cc;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+
+.btn btn-primary btn-lg {
+    border-radius: 5%;
+    margin-right: 15%;
+}
+
+.schema {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #0099cc;
+}
+
+.schema1 {
+    margin-top: 5%;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.sixTeams {
+    background: #80ced6;
+    margin-left: -50px;
+}
+
+.month {
+    display: none;
+}
+
+.allMaps {
+    justify-content: space-around;
+    width: 33rem;
+    margin-left: 16%;
+}
+
+.allSchedule {
+    display: flex;
+    flex-direction: column;
+}
+
+.datum {
+    flex-basis: auto;
+    margin-left: 15%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    font-style: Impact, Charcoal, sans-serif;
+    font-size: 2.5rem;
+    color: aqua;
+}
+
+.teamName {
+    justify-content: center;
+    font-size: 2.5rem;
+    color: #95d680;
+    margin-left: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 25%;
+}
+
+.september,
+.october {
+    margin-left: 40%;
+    font-size: 3rem;
+    justify-content: center;
+    color: #555;
+}
+
+.title {
+    margin-left: 15%;
+    border-radius: 20%;
+    color: black;
+}
+
+.time,
+.location {
+    margin-left: 30%;
+    font-size: 1.5rem;
+    color: #d6d680;
+}
+
+.football {
+    display: none;
+}
+
+.logo1,
+.logo2 {
+    width: 130px;
+    height: 90px;
+    border-radius: 25%;
+}
+
+.logo2 {
+    margin-right: 100px;
+}
+
+.time {
+    margin-bottom: 4rem;
+}
+
+.versusmayor {
+    margin-left: 8%;
+}
+
+.versus {
+    font-style: Impact, Charcoal, sans-serif;
+    font-size: 3rem;
+    color: black;
+}
+
+.buttonTeam {
+    width: 360px;
+    height: 80px;
+    justify-content: center;
+    font-size: 3.2rem;
+    margin: 20px 20px;
+    margin-left: 32%;
+    border-radius: 8%;
+    background-color: ghostwhite;
+
+}
+
+.Name {
+    font-size: 20px;
+    color: black;
+    margin-left: 40%;
+}
+
+.address {
+    font-size: 15px;
+    color: #13363a;
+    margin-left: 30%;
+}
+
+.backButton {
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+}
+
+.video {
+    margin-left: 115px;
+    border-radius: 20%;
+    width: 400px;
+    height: 400px;
+}
+
+.advice {
+    height: 800px;
+    width: 800px;
+    overflow: scroll;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://i.ibb.co/GC3vWMX/soccer-field.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    color: white;
+    opacity: 7%;
+    border-radius: 10px;
+}
+
+.teamsPlayers {
+    border-radius: 25%;
+    background: black;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 3rem;
+    width: 30rem;
+    margin-left: 30%;
+}
+
+.coach {
+    border-radius: 25%;
+    justify-content: center;
+    background: black;
+    color: #ffffff;
+    font-size: 3rem;
+    width: 50rem;
+    margin-left: 10%;
+}
+
+.message {
+    border: 1px solid black;
+    padding: 5px;
+    margin-left: 150px;
+    width: 250px;
+    background-color: lightyellow;
+    border-radius: 10%;
+    opacity: 0.8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.yourMessage {
+    border: 1px solid black;
+    margin: 1px;
+    width: 250px;
+    background-color: rgb(210, 250, 220);
+    border-radius: 10px;
+    opacity: 0.8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+GoToLeft {
+    padding left: 5px;
+
+}
+
+#posts {
+    height: 500px;
+    width: 500px;
+    overflow: scroll;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.Chat {
+    height: 400px;
+    clear: both;
+    border-top: 1px solid #D7D6FF;
+    width: 99%;
+}
+
+#myChat {
+    display: none;
+}
+
+#hideContent {
+    display: block;
+}
+
+
+.box {
+    background-color: aqua;
+    margin-left: 50%;
+    width: 900px;
+}
+
+/*body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+}*/
+
+body:before {
+    font-size: 30px;
+    font-family: Verdana;
+    margin-bottom: 30px;
+}
+
+body:after {
+    margin-top: 70px;
+    font-size: 14px;
+    color: grey;
+}
+
+.inputs {
+    display: flex;
+}
+
+input {
+    margin-right: 15px;
+}
+
+.notification:not(:last-child) {
+    margin-bottom: .3rem;
+}
+
+.notification.is-info {
+    text-align: right;
+    max-width: 80%;
+    align-self: flex-end;
+    border-radius: 20px;
+}
+
+.notification.is-primary {
+    text-align: left;
+    max-width: 80%;
+    align-self: flex-start;
+    border-radius: 20px;
+}
+
+.name {
+    font-size: 12px;
+    font-weight: bold;
+    color: lightyellow;
+}
+
+@media only screen and (max-width: 600px) and (-webkit-min-device-pixel-ratio: 3) {
+    [class*="col-"] {
+        //width: 100%;
+    }
+
+    body {
+        width: 600px;
+        height: 600px;
+    }
+    
+    .teams {
+        background-color: aqua;
+        border-radius: 5px;
+    }
+    
+    .active {
+        float: left;
+        background-color: #BDB76B;
+        color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .mobile-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: blanchedalmond;
+        border-radius: 10px;
+    }
+
+    .video {
+        display: none;
+    }
+
+    .active {
+        display: inline-flex;
+        background-color: aqua;
+    }
+
+    .football {
+        display: block;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 5%;
+
+    }
+
+    .logo {
+        display: block;
+    }
+
+
+    .imagen {
+        display: block;
+        margin-left: 4%;
+        border-radius: 50%;
+        height: 800px;
+        height: 10rem;
+        width: 15rem;
+    }
+
+    .september,
+    .october {
+        margin-left: 40%;
+        font-size: 2rem;
+        justify-content: center;
+        color: hsl(186, 51%, 15%);
+    }
+
+    .advice {
+        height: 600px;
+        width: 600px;
+        overflow: scroll;
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-image: url(https://i.ibb.co/GC3vWMX/soccer-field.png);
+        background-size: auto;
+        color: white;
+        opacity: 7%;
+        border-radius: 10px;
+    }
+}
+
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+    .teams {
+        background-color: aqua;
+        border-radius: 5px;
+    }
+}
+
+/* Portrait */
+/*@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {}
+
+/* Landscape */
+/*@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {}*/
